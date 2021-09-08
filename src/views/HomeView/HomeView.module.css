@@ -1,0 +1,33 @@
+.container {
+  padding: 30px 0;
+  text-align: center;
+}
+.wrapper {
+  margin-top: 80px;
+}
+.title {
+  top: 150px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(106, 166, 168);
+  text-decoration: blink;
+  position: absolute;
+  writing-mode: vertical-rl;
+  height: 4em;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #3f51b5;
+}
+
+.info {
+  margin: 0px auto;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ff0000;
+}
