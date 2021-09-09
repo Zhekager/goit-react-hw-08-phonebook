@@ -1,6 +1,8 @@
 .container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-top: 10px;
 }
 
 .phone {
@@ -9,7 +11,8 @@
 }
 
 .name {
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  padding-top: 10px;
   font-size: 0.75rem;
   font-weight: 500;
   color: #fff;

@@ -29,7 +29,12 @@ export default function ContactList() {
               >
                 <p className={styles.info}>
                   <em>{name}</em>
-                  <em>{number}</em>
+
+                  <em>
+                    <a className={styles.link} href={`tel:${number}`}>
+                      {number}
+                    </a>
+                  </em>
                 </p>
                 <IconButton
                   aria-label="delete"

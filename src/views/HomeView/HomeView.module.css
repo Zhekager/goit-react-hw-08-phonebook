@@ -3,20 +3,16 @@
   text-align: center;
 }
 .wrapper {
-  margin-top: 80px;
+  margin-top: 150px;
 }
 .title {
-  top: 150px;
   margin-top: 15px;
   margin-bottom: 0px;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   color: rgb(106, 166, 168);
   text-decoration: blink;
-  position: absolute;
-  writing-mode: vertical-rl;
-  height: 4em;
 }
 
 .text {

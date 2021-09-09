@@ -9,7 +9,6 @@ export default function UserMenu() {
 
   return (
     <div className={styles.container}>
-      <span className={styles.name}>Welcome, {name}!</span>
       <Button
         variant="contained"
         color="primary"
@@ -18,6 +17,7 @@ export default function UserMenu() {
       >
         Log out
       </Button>
+      <span className={styles.name}>{name}</span>
     </div>
   );
 }

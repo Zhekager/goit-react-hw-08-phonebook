@@ -13,7 +13,7 @@ export default function ContactsView() {
 
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.title}>Phonebook</h1>
+      <h1 className={styles.title_header}>Phonebook</h1>
       <ContactForm />
       <h2 className={styles.title}>Contacts</h2>
       <Filter />
